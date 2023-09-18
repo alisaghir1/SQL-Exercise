@@ -66,3 +66,22 @@ JOIN employees
 ON employees.Company=companies.name
 WHERE Role = "Graphic Designer"
 
+# Answer 18
+SELECT max(Points) AS "Highest Points"
+FROM students;
+# Answer 19
+SELECT AVG(Points)
+FROM students;
+# Answer 20
+SELECT count(name)
+FROM students
+WHERE Points = 500;
+# Answer 21
+SELECT name
+FROM students
+WHERE name LIKE '%s%';
+# Answer 22
+SELECT *
+FROM students
+ORDER BY points DESC;
+# Answer 23
